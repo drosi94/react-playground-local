@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Posts/Post Default 1`] = `
+<li
+  className="post"
+  data-testid="post-Test todo"
+>
+  Title: 
+  Test todo
+</li>
+`;
+
+exports[`Storyshots Components/Posts/PostList Default 1`] = `
+<div>
+  <div>
+    <ul
+      data-testid="postList"
+    >
+      <li
+        className="post"
+        data-testid="post-Task 1"
+      >
+        Title: 
+        Task 1
+      </li>
+      <li
+        className="post"
+        data-testid="post-Task 2"
+      >
+        Title: 
+        Task 2
+      </li>
+      <li
+        className="post"
+        data-testid="post-Task 3"
+      >
+        Title: 
+        Task 3
+      </li>
+      <li
+        className="post"
+        data-testid="post-Task 4"
+      >
+        Title: 
+        Task 4
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Posts/PostList Empty 1`] = `
+<div>
+  <div>
+    <span>
+      No posts...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Posts/PostList Loading 1`] = `
+<div>
+  <div>
+    <span>
+      loading...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Screens/PostsScreen Default 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Press me
+  </button>
+  <div>
+    <div />
+  </div>
+</div>
+`;
